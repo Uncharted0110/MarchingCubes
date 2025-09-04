@@ -442,6 +442,3 @@ public class MarchingCubes : MonoBehaviour
         transform.Rotate(Vector3.up, 20f * Time.deltaTime);
     }
 }
-</code></pre>
-</body>
-</html>
