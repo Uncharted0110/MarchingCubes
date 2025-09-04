@@ -1,8 +1,5 @@
 # MarchingCubes
-
-<body>
-    <pre><code>
-using NUnit.Framework;
+```  
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,7 +7,7 @@ public class MarchingCubes : MonoBehaviour
 {
     [SerializeField] public int size = 16;
     [SerializeField] public float isoLevel = 0f;
-    [SerializeField] public float cubeSize = 1.00f; 
+    [SerializeField] public float cubeSize = 0.25f; 
 
     private List<Vector3> vertices;
     private List<int> triangles;
@@ -442,3 +439,4 @@ public class MarchingCubes : MonoBehaviour
         transform.Rotate(Vector3.up, 20f * Time.deltaTime);
     }
 }
+```
